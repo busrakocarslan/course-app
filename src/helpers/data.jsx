@@ -1,0 +1,101 @@
+export const appointmentData = [
+    {
+      id: 1,
+      students: "Sezgin Sezdi",
+      day: new Date(),
+      consulted: false,
+      instructor: "Prof. Ayşe Kaya",
+    },
+    {
+      id: 2,
+      students: "Yılmaz Yılar",
+      day: new Date(),
+      consulted: false,
+      instructor: "Prof.Dr. Ahmet Demir",
+    },
+    {
+      id: 3,
+      students: "Irmak Çağlar",
+      day: new Date(),
+      consulted: false,
+      instructor: "Dr. Mehmet Yılmaz",
+    },
+  ]
+  
+  export const courseData = [
+    {
+      id: 1,
+      courseName: "Biyoloji",
+      instructor: "Prof. Ayşe Kaya",
+      department: "Doğa Bilimleri",
+      img: "./img/biyoloji.png",
+      studentsEnrolled: 25,
+      duration: "12 Hafta",
+    },
+    {
+      id: 2,
+      courseName: "Matematik",
+      instructor: "Dr. Mehmet Yılmaz",
+      department: "Matematik",
+      img: "./img/matematik.jpg",
+      studentsEnrolled: 30,
+      duration: "10 Hafta",
+    },
+    {
+      id: 3,
+      courseName: "İngilizce",
+      instructor: "Dr. Diana Demirtaş",
+      department: "Yabancı Diller",
+      img: "./img/ingilizce.jpg",
+      studentsEnrolled: 32,
+      duration: "10 Hafta",
+      
+    },
+    {
+      id: 4,
+      courseName: "Kimya",
+      instructor: "Dr. Sıla Arslan",
+      department: "Kimya",
+      img: "./img/kimya.jpg",
+      studentsEnrolled: 28,
+      duration: "12 Hafta",
+    },
+    {
+      id: 5,
+      courseName: "Tarih",
+      instructor: "Prof.Dr. Ali Gözler",
+      department: "Sosyal Bilimler",
+      img: "./img/tarih.jpg",
+      studentsEnrolled: 22,
+      duration: "10 Hafta",
+    },
+    {
+      id: 6,
+      courseName: "Coğrafya",
+      instructor: "Dr. Piraye Aydın",
+      department: "Coğrafya",
+      img: "./img/cografya.jpg",
+      studentsEnrolled: 26,
+      duration: "12 Hafta",
+    },
+    {
+      id: 7,
+      courseName: "Fizik",
+      instructor: "Prof.Dr. Ahmet Demir",
+      department: "Fizik",
+      img: "./img/fizik.png",
+      studentsEnrolled: 20,
+      duration: "14 Hafta",
+     
+    },
+    {
+     id: 8,
+      courseName: "Felsefe",
+      instructor: "Dr. Can Yılmaz",
+      department: "Felsefe",
+      img: "./img/felsefe.jpg",
+      studentsEnrolled: 24,
+      duration: "8 Hafta",
+    },
+  ];
+  

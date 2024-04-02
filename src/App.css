@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to bottom, white, black);
+ color:rgba(192, 55, 5, 0.955) !important;
+}
+.listCon {
+  /* background-color: #fff; */
+  color: lightblue;
+  padding: 0.5rem;
+  & .kursListe {
+    /* border: 2px solid rgba(192, 55, 5, 0.955); */
+    padding: 0.5rem;
+    color: white;
+    text-align: start;
+    box-shadow: 3px 3px 3px 3px rgba(192, 55, 5, 0.955);
+    margin: 1rem;
+    border-radius: 5px;
+  }
+}
